@@ -124,11 +124,12 @@ Append-only JSONL at `~/.aca/audit.jsonl`:
 
 `aca-govern` is the second pillar of the ACA protocol ecosystem:
 
-| Product | Purpose |
-|---------|---------|
-| [Agent Memory Hall](https://github.com/MakiDevelop/agent-memory-hall) | ACA L1-3: Memory + Trust + Identity server |
-| **aca-govern** | Governance proxy: add ACA governance to any MCP server |
-| [ACA Spec](https://github.com/MakiDevelop/agent-civilization-architecture) | The open protocol specification (6 layers + 34 conformance tests) |
+| Package | Purpose | npm |
+|---|---|---|
+| **[ACA Spec](https://github.com/MakiDevelop/agent-civilization-architecture)** | Protocol specification (5 layers + governance plane + 34 conformance tests) | — |
+| **[Agent Memory Hall](https://github.com/MakiDevelop/agent-memory-hall)** | Reference implementation of ACA Layers 1-3 | `@chibakuma/agent-memory-hall` |
+| **aca-govern** (this package) | MCP governance proxy — add audit + policy to any MCP server | `@chibakuma/aca-govern` |
+| **[aca-types](https://github.com/MakiDevelop/aca-types)** | TypeScript type definitions for the ACA protocol | `@chibakuma/aca-types` |
 
 ## Roadmap
 
