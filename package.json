@@ -1,6 +1,6 @@
 {
   "name": "@chibakuma/aca-govern",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP governance proxy - add ACA governance to any MCP server",
   "type": "module",
   "main": "dist/cli.js",
