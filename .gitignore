@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.aca/
+.amh/
+.npm-cache/
+coverage/
+*.log

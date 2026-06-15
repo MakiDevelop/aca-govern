@@ -1,0 +1,25 @@
+{
+  "name": "aca-govern",
+  "version": "0.1.0",
+  "description": "MCP governance proxy - add ACA governance to any MCP server",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "aca-govern": "dist/cli.js"
+  },
+  "files": ["dist/cli.js", "dist/config.js", "dist/proxy.js", "dist/pipeline", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && chmod +x dist/cli.js",
+    "check": "tsc --noEmit",
+    "test": "tsc && node --test dist/proxy.test.js"
+  },
+  "keywords": ["mcp", "governance", "aca", "agent", "audit", "trust"],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "minimatch": "^10.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3"
+  }
+}
